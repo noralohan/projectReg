@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    
+}
+header{
+background-color: #000c0a;
+padding-block: .8rem;
 }
 
-body{
-    background-color: #000c0a;
+.genLayout{
+  max-width: 900px;
+  margin: auto;
+  padding-block: 2rem;
 }
+
 
 nav{
     /* border:2px solid; */
-    padding-block: .8rem;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -42,8 +51,6 @@ nav>button{
     font-size: 10px;
 }
 .banner{
-    max-width: 800px;
-    margin: 3rem auto;
     color: #dddfdf;
     display: flex;
     /* gap:7rem */
@@ -179,6 +186,156 @@ form>button{
     font-weight: 600;
     text-transform: capitalize;
 }
+
+/* section one styling */
+.secOne{
+    background-color: #011916;
+}
+
+.investLayout{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.investContent{
+    width: 50%;
+}
+.investContent>h1{
+    font-size: 25px;
+}
+
+.investContent>p{
+    font-size: 14px;
+}
+.money{
+    display: flex;
+    gap: 10px;
+}
+
+.moneyText>span{
+    font-size: 12px;
+}
+
+.moneyImg{
+    width: 30%;
+}
+
+.moneyImg>img{
+    width: 100%;
+}
+
+
+/* styling for section two */
+.secTwo{
+    background-color: #000c0a;
+    color: #fff;
+}
+
+#services>h1{
+    text-align: center;
+    color: #27e1b4;
+}
+
+
+.serviceOption{
+    margin-block: 1rem;
+    display: flex;
+    gap: 25px;
+}
+
+.serviceCard>img{
+    width:60px;
+}
+
+.innerServiceCard{
+    padding-left: .2rem;
+    border-left: 2px solid #27e1b4;
+}
+
+.innerServiceCard>h5{
+    text-transform: capitalize;
+}
+
+.innerServiceCard>p{
+    font-size: 11px;
+    line-height: 15px;
+}
+
+/* responsive styling */
+@media(min-width:360px) and (max-width: 460px){
+
+    nav{
+        justify-content: center;
+    }
+
+    .banner{
+        width:330px;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .bannerContent{
+
+        width: 100%;
+    }
+
+  .bannerContent>h1{
+       width: 100%;
+  }
+
+  .investLayout{
+    width: 330px;
+    flex-direction: column;
+  }
+
+  .investContent{
+    width: 100%;
+  }
+  
+  .investContent>p{
+    margin-block: 1rem;
+  }
+
+.moneyImg{
+    width: 70%;
+}
+
+.serviceOption{
+    width: 330px;
+    margin: auto;
+    flex-direction: column;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

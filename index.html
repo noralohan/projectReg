@@ -1,66 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Reg</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/f.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Service</a>
         <a href="#">App</a>
         <a href="#">Contact</a>
         <button>Login Now</button>
-    </nav>
-     
+      </nav>
 
-    <div class="banner">
+      <div class="banner genLayout">
         <div class="bannerContent">
-            <h1>become a trader in <span>crypto currencies</span></h1>
+          <h1>become a trader in <span>crypto currencies</span></h1>
 
-            <p>the tools and information you need to buy, trade, sell, invest and spend cryptocurencies</p>
+          <p>
+            the tools and information you need to buy, trade, sell, invest and
+            spend cryptocurencies
+          </p>
 
-            <button>Start Now <i class="fa fa-arrows" aria-hidden="true"></i> </button>
+          <button>
+            Start Now <i class="fa fa-arrows" aria-hidden="true"></i>
+          </button>
         </div>
 
         <form>
-            <div class="btn">
-                <button>buy</button>
-                <button>sell</button>
+          <div class="btn">
+            <button>buy</button>
+            <button>sell</button>
+          </div>
+
+          <div class="inputBox">
+            <label>
+              choice coin <i class="fa fa-asterisk" aria-hidden="true"></i
+            ></label>
+            <select>
+              <option>bitcoin</option>
+            </select>
+          </div>
+
+          <div class="inputBox">
+            <label>
+              buying amount<i class="fa fa-asterisk" aria-hidden="true"></i
+            ></label>
+            <div class="innerInputBox">
+              <input type="text" placeholder="enter amount" />
+              <select>
+                <option>btc</option>
+              </select>
+            </div>
+          </div>
+          <div class="inputBox">
+            <label>
+              paying amount<i class="fa fa-asterisk" aria-hidden="true"></i
+            ></label>
+            <div class="innerInputBox">
+              <input type="text" placeholder="enter amount" />
+              <select>
+                <option>usd</option>
+              </select>
+            </div>
+          </div>
+
+          <button>confirm</button>
+        </form>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <section class="secOne">
+        <div class="investLayout genLayout">
+          <div class="investContent">
+            <h1>Free your money and invest with confidence</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              rerum necessitatibus alias saepe provident ut esse doloremque
+              consequatur nam exercitationem.
+            </p>
+
+            <div class="money">
+              <img src="images/btc logo.png" height="70" ="btc" />
+              <div class="moneyText">
+                <h4>Buy, sell and trade on the go</h4>
+                <span> Manage your holdings from your mobile device</span>
+              </div>
+            </div>
+            <div class="money">
+              <img src="images/btc logo.png" height="70" alt="btc" />
+              <div class="moneyText">
+                <h4>Take control of your wealth</h4>
+                <span>
+                  Rest assured you (and only you) have access to your
+                  funds</span
+                >
+              </div>
+            </div>
+            <div class="money">
+              <img src="images/btc logo.png" height="70" alt="btc" />
+              <div class="moneyText">
+                <h4>Move money freely</h4>
+                <span
+                  >Send and receive cryptocurencies
+                  anytime,anywhere,no-questions asked</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="moneyImg">
+            <img src="images/money machine.png" alt="money" />
+          </div>
+        </div>
+      </section>
+
+      <!-- section two -->
+      <section class="secTwo">
+        <div id="services" class="genLayout">
+          <h1>Why choose Crypency</h1>
+
+          <div class="serviceOption">
+            <div class="serviceCard">
+              <img src="images/lock.png" alt="lock" />
+              <div class="innerServiceCard">
+                <h5>safe and security</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptate, quibusdam!
+                </p>
+              </div>
             </div>
 
-            <div class="inputBox">
-                <label> choice coin <i class="fa fa-asterisk" aria-hidden="true"></i></label>
-                <select>
-                    <option>bitcoin</option>
-                </select>
+            <div class="serviceCard">
+              <img src="images/coin.png" alt="lock" />
+              <div class="innerServiceCard">
+                <h5>instant add money</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  rerum.
+                </p>
+              </div>
             </div>
 
-           <div class="inputBox">
-                <label> buying amount<i class="fa fa-asterisk" aria-hidden="true"></i></label>
-                <div class="innerInputBox">
-                    <input type="text" placeholder="enter amount">
-                    <select>
-                        <option>btc</option>
-                    </select>
-                </div>
-           </div>
-            <div class="inputBox">
-                <label> paying amount<i class="fa fa-asterisk" aria-hidden="true"></i></label>
-                <div class="innerInputBox">
-                    <input type="text" placeholder="enter amount">
-                    <select>
-                        <option> usd</option>
-                    </select>
-                </div> 
+            <div class="serviceCard">
+              <img src="images/lady.png" alt="lock" />
+              <div class="innerServiceCard">
+                <h5>experts support</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae, magnam.
+                </p>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <button>confirm</button>
-         </form>  
-    </div>
-</body>
+      
+    </main>
+  </body>
 </html>
