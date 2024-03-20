@@ -208,10 +208,18 @@ form>button{
 
 .investContent>p{
     font-size: 14px;
+    margin-block: 1rem;
 }
 .money{
     display: flex;
+    align-items: center;
     gap: 10px;
+    margin-bottom: .7rem;
+}
+
+.money>img{
+    height: 40px;
+    width: 40px;
 }
 
 .moneyText>span{
@@ -298,8 +306,14 @@ form>button{
     margin-block: 1rem;
   }
 
+
+
 .moneyImg{
     width: 70%;
+}
+.money>img{
+    height: 30px;
+    width: 30px;
 }
 
 .serviceOption{
